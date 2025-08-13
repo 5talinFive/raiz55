@@ -1,0 +1,8 @@
+<!-- public/cube.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120">
+  <!-- Contorno del cubo isométrico -->
+  <path d="M0,-50 L43,-25 L43,25 L0,50 L-43,25 L-43,-25 Z" stroke="#fff" stroke-width="2" fill="none"></path>
+  <!-- Aristas internas para dar volumen -->
+  <path d="M0,-50 L0,0 L43,25" stroke="#fff" stroke-width="2" fill="none"></path>
+  <path d="M0,0 L-43,25" stroke="#fff" stroke-width="2" fill="none"></path>
+</svg>

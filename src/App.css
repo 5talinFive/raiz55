@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+main{min-height:calc(100vh - 120px);padding:40px 18px;max-width:1100px;margin:0 auto;color:#e5e7eb}
+h1{margin:0 0 12px}
+p{opacity:.9;line-height:1.6}
+
+
+
+
+
+.btn{padding:10px 14px;border-radius:12px;background:#ffffff10;color:#fff;text-decoration:none;border:1px solid #ffffff22}
+.btn:hover{background:#ffffff18}
+.btn.outline{background:transparent}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:14px}
+.card{background:#101010cc;border:1px solid #ffffff15;padding:16px;border-radius:14px}
+.row{display:flex;gap:10px;margin-top:10px}
+.form{display:grid;gap:12px;max-width:520px}
+input,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid #ffffff22;background:#0a0a0acc;color:#e5e7eb}
+button{padding:10px 14px;border-radius:12px;border:1px solid #ffffff22;background:#ffffff10;color:#fff;cursor:pointer}
+button:hover{background:#ffffff18}

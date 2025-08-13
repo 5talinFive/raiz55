@@ -19,7 +19,7 @@ const ParticlesBackground = () => {
         particles: {
           number: { value: 50 },
           size: { value: { min: 1, max: 3 } },
-          move: { enable: true, speed: 1.5 },
+          move: { enable: true, speed: 0.3 },
           links: {
             enable: true,
             color: '#ffffff',
